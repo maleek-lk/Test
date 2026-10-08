@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+  <meta name="theme-color" content="#0B0C10" />
+  <meta
+    name="description"
+    content="Premium fashion and bespoke tailoring."
+  />
+
+  <title>Fashion Atelier</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="site-noise"></div>
+
+  <!-- =========================================================
+       ✦ EDITABLE CONTENT
+       Change text/content here.
+       Do not edit the layout structure unless necessary.
+  ========================================================= -->
+
+  <header class="navbar" id="navbar">
+
+    <a href="#" class="brand">
+      <span class="brand-mark">✦</span>
+      <span class="brand-name">Rach3al</span>
+      <em>Atelier</em>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-cta">
+      <span>Enquire</span>
+      <span class="arrow">↗</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+  </header>
+
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+
+    <a href="#contact" class="mobile-menu-cta">
+      Start an enquiry ↗
+    </a>
+
+  </div>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-glow"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow reveal">
+          THE ATELIER / EST. 2024
+        </p>
+
+        <h1 class="hero-title reveal">
+          Made to be<br />
+          <span>remembered.</span>
+        </h1>
+
+        <p class="hero-description reveal">
+          Bespoke silhouettes. Considered details.<br />
+          Fashion designed around you.
+        </p>
+
+        <div class="hero-actions reveal">
+
+          <a href="#collection" class="button button-light">
+            Explore the collection
+            <span>↘</span>
+          </a>
+
+          <a href="#about" class="text-link">
+            Our story
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-side-label">
+        <span>HANDCRAFTED</span>
+        <span class="vertical-line"></span>
+        <span>FOR YOU</span>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO DISCOVER</span>
+        <span class="scroll-line"></span>
+        <span>01 / 04</span>
+      </div>
+
+    </section>
+
+
+    <!-- IMAGE MARQUEE -->
+
+    <section class="marquee-section">
+
+      <div class="section-label">
+        <span>01</span>
+        <span>THE VISUAL EDIT</span>
+        <span>SELECTED PIECES</span>
+      </div>
+
+      <div class="marquee-wrapper">
+        <div class="marquee-track" id="marqueeTrack"></div>
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro-section">
+
+      <div class="section-label">
+        <span>02</span>
+        <span>THE ATELIER</span>
+        <span>CRAFT / FORM / FEELING</span>
+      </div>
+
+      <div class="intro-grid">
+
+        <div class="intro-number">
+          R3
+        </div>
+
+        <div class="intro-copy">
+
+          <p class="eyebrow">
+            A DIFFERENT KIND OF FIT
+          </p>
+
+          <h2>
+            Every woman<br />
+            deserves a dress<br />
+            <i>that feels like hers.</i>
+          </h2>
+
+        </div>
+
+        <div class="intro-detail">
+
+          <p>
+            At Rach3al Atelier, every piece begins with an idea,
+            refined through craftsmanship, and finished with
+            the details that make it unmistakably yours.
+          </p>
+
+          <a href="#about" class="text-link">
+            Discover the atelier
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COLLECTION -->
+
+    <section class="collection-section" id="collection">
+
+      <div class="section-label">
+        <span>03</span>
+        <span>THE COLLECTION</span>
+        <span>SEVEN EXPRESSIONS</span>
+      </div>
+
+      <div class="collection-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            SELECTED WORKS
+          </p>
+
+          <h2>
+            Pieces with<br />
+            <i>presence.</i>
+          </h2>
+
+        </div>
+
+        <p class="collection-note">
+          Explore selected designs from the atelier.
+          Every piece can be adapted to your measurements,
+          preferences, and occasion.
+        </p>
+
+      </div>
+
+      <div class="collection-grid" id="collectionGrid"></div>
+
+    </section>
+
+
+    <!-- CUSTOM ORDER -->
+
+    <section class="custom-section">
+
+      <div class="custom-image">
+
+        <img
+          id="customImage"
+          src=""
+          alt="Custom fashion design"
+          loading="lazy"
+        />
+
+        <div class="image-overlay"></div>
+
+        <span class="image-caption">
+          THE ART OF CUSTOM
+        </span>
+
+      </div>
+
+      <div class="custom-content">
+
+        <p class="eyebrow">
+          NOT QUITE WHAT YOU HAD IN MIND?
+        </p>
+
+        <h2>
+          Bring us<br />
+          your <i>vision.</i>
+        </h2>
+
+        <p>
+          Have a reference, a sketch, or simply an idea?
+          Send it to us. We create custom pieces designed
+          around your style and your story.
+        </p>
+
+        <a
+          href="#"
+          class="button button-light whatsapp-link"
+          data-message="Hello, I would like to discuss a custom design."
+        >
+          Start a custom enquiry
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about-section" id="about">
+
+      <div class="section-label">
+        <span>04</span>
+        <span>ABOUT THE ATELIER</span>
+        <span>CRAFTED WITH INTENTION</span>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-heading">
+
+          <p class="eyebrow">
+            THE PHILOSOPHY
+          </p>
+
+          <h2>
+            Quiet luxury.<br />
+            <i>Distinctly yours.</i>
+          </h2>
+
+        </div>
+
+        <div class="about-copy">
+
+          <p class="large-copy">
+            We believe the most beautiful clothes are
+            the ones that make you feel entirely yourself.
+          </p>
+
+          <p>
+            Rach3al Atelier is a fashion and tailoring studio
+            dedicated to creating thoughtfully designed dresses
+            for women who appreciate individuality, detail,
+            and an impeccable fit.
+          </p>
+
+          <p>
+            From occasionwear to custom creations, every piece
+            is made with care and a commitment to making you
+            feel confident in what you wear.
+          </p>
+
+          <div class="about-signature">
+            Rach3al <span>✦</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact-section" id="contact">
+
+      <div class="contact-glow"></div>
+
+      <div class="contact-content">
+
+        <p class="eyebrow">
+          LET'S CREATE SOMETHING
+        </p>
+
+        <h2>
+          Your next<br />
+          <i>favourite dress.</i>
+        </h2>
+
+        <p>
+          For orders, custom designs, measurements,
+          and further details, speak directly with us.
+        </p>
+
+        <a
+          href="#"
+          class="button button-pink whatsapp-link"
+          data-message="Hello, I would like to make an enquiry."
+        >
+          Chat with us on WhatsApp
+          <span>↗</span>
+        </a>
+
+        <p class="shipping-note">
+          Nationwide delivery available.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <a href="#" class="brand">
+
+        <span class="brand-mark">✦</span>
+
+        <span class="brand-name">
+          Rach3al
+        </span>
+
+        <em>
+          Atelier
+        </em>
+
+      </a>
+
+      <p>
+        Designed with intention.<br />
+        Made for you.
+      </p>
+
+      <a href="#" class="back-top" id="backTop">
+        Back to top ↑
+      </a>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 Rach3al Atelier
+      </span>
+
+      <span>
+        Fashion / Custom / Craft
+      </span>
+
+      <span>
+        Made in Nigeria
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- PRODUCT MODAL -->
+
+  <div class="product-modal" id="productModal">
+
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+
+    <div class="modal-card">
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <div class="modal-image">
+
+        <img
+          id="modalImage"
+          src=""
+          alt=""
+        />
+
+      </div>
+
+      <div class="modal-info">
+
+        <p
+          class="eyebrow"
+          id="modalNumber"
+        >
+          DESIGN 01
+        </p>
+
+        <h2 id="modalTitle">
+          Design Name
+        </h2>
+
+        <p
+          class="modal-price"
+          id="modalPrice"
+        >
+          ₦0
+        </p>
+
+        <p
+          class="modal-description"
+          id="modalDescription"
+        ></p>
+
+        <p class="modal-note">
+          Standard price shown. Custom details, fabric options,
+          sizing, and delivery arrangements are discussed directly.
+        </p>
+
+        <a
+          href="#"
+          class="button button-pink"
+          id="modalWhatsapp"
+        >
+          Enquire about this design
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+    </html>
